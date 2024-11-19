@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width, initial-scale=1.0" />
+<head>
+<title> Moja pierwsza strona www </title>
+</head>
+<body>
+	<div style="background-color:grey;">
+	<h1> <center> Projektowanie Stron Internetowych - Mikołaj Kot </center></h1>
+	</div>
+	<div style="float:left; width:30%; height:550px;">
+		<h3>HTML</h3>
+			<a href="index.html"> STRONA GŁÓWNA </a> <br />
+			<a href="kolory.html"> KOLORY </a> <br />
+			<a href="nauczyciele.html"> NAUCZYCIELE </a> <br />
+			<a href="zdjecia.html"> ZDJĘCIA </a> <br />
+			<a href="tabela.html"> TABELA </a> <br />
+			<a href="tabela_kot.html"> TABELA NA OCENĘ <a> <br />
+			<a href="listy1.html"> LISTY </a> <br />
+			<a href="kot_lista.html"> LISTY NA OCENĘ</a> <br />
+			<a href="fromularznaocene.html"> FORMULARZ NA OCENE</a> <br />
+	</div>
+	<div style="float:right;width:70%;">
+		<h3> W tym miejscu znajduje się treść strony </h3>
+		</div>
+	<body style="background-color:cyan;"></body>
+	 <h1><span style="color:green">ADRES </h1>
+	 </div>
+	<form action="mailto:nauka@gmail.com.php" method="get">
+	<label>
+	<p><input type="radio" name="wybor" value="wartosc_podstawowa">podstawowy</p></input>
+	</label>
+	<label>
+	<p><input type="radio" name="wybor" value="wartosc_podstawowa">do wysylki</p></input>
+	</label>
+	<label>
+	<p><input type="radio" name="wybor" value="wartosc_podstawowa">korenspondecyjny</p></input>
+	</label>
+	<label>
+	<p><input type="radio" name="wybor" value="wartosc_podstawowa">odbiorcy</p></input>
+	</label>
+	</form>
+	
+	<form>
+	<label>
+	<p>NAZWA <input type="text" name="nazwa" value="Sklep wielobranzowy poligraf" size="30"> </p></input>
+	</label>
+	<label>
+	<p>ULICA <input type="text" name="nazwa" size="30"> </p></input>
+	</label>
+	<label>
+	<p>KOD POCZTOWY <input type="text" name="nazwa" value="40=671" size="30"> </p></input>
+	</label>
+	<label>
+	<p>MIEJSCOWOSC <input type="text" name="nazwa" value="Katowice" size="30"> </p></input>
+	</label>
+	<label>
+	<p>TELEFON <input type="text" name="nazwa" value="48+ 989 989 989" size="30"> </p></input>
+	</label>
+	<label>
+	<p>EMAIL <input type="text" name="nazwa" value="info@gmail.com" size="30"> </p></input>
+	</label>
+	</form>
+
+	<h1><span style="color:green">WYSYLKA </h1>
+	
+	<form>
+	<p>Wysylka<input list="blok" name="przesyłka" />
+	<datalist id="blok">
+		<option value="ekonomiczny">
+		<option value="priortyetowy">
+		<option value="ekspresowy">
+		</datalist> </p>
+	</form>
+	
+	<form>
+	<p>Waga(g) <input type="text" name="waga" size="6" value="1000g"></p></input>
+	<p>Gabaryt
+	<select name="nazwa_pola" size="4" multiple>
+	<option value="S" />S(28 x8 x64cm)
+	<option value="M" />M(38 x19 x64cm)
+	<option value="L" />L(41 x38 x64cm)
+	<option value="XL" />XL(60 x60 x70cm)
+	</select></p></form>
+	<form>
+	<p>Wartosc <input tpye="text" name="nazwa" size="30" value="0,00">zł</p></input>
+	</form>
+	<form>
+	<p>nr rachunku<input type="text" name="nazwa" size="30"> </p></input>
+	</form>
+	<p> data wysylki<input type="date" value="19-11-2024"> </p></input>
+	</form>
+	
+	<form>
+	<label><p><input type="checkbox" name="wybor" value="wartosc_dowysyl">Z - żądanie zwrostu/odesłania</label></p></input>
+	<label><p><input type="checkbox" name="wybor" value="wartosc_kores">R</label></p></input>
+	<label><p><input type="checkbox" name="wybor" value="wartosc_odb">O - potwierdzenie odbioru</label></p></input>
+	<label><p><input type="checkbox" name="wybor" value="wartosc_odb">W - zadeklarowanie zwrotu</label></p></input>
+	<label><p><input type="checkbox" name="wybor" value="wartosc_odb">S - sprawdzanie wartości</label></p></input>
+	<label><p><input type="checkbox" name="wybor" value="wartosc_odb">K - ostrożnie</label></p></input>
+	</form>
+	
+	<form>
+	<p>UWAGI<p>
+	<p><textarea cols="70" rows="7">
+Proszę o wpisanie każdych uwag
+	</textarea></p>
+	</form>
+	
+	<form>
+	<p><button type="submit" name="przycisk1" onclick="alert('wysłano')"> wyslij </button></p>
+	</form>
+	<form>
+	<p><button type="submit" name="przycisk2" onclick="alert('anulowano')"> anuluj </button></p>
+	</form>
+		<div style="background-color:grey;clear:both;"><center> &copy; B.M., September 2022
+		</center></div>
+</body>
+</html>
