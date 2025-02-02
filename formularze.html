@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width, initial-scale=1.0" />
+<head>
+<title> Moja pierwsza strona www </title>
+</head>
+<body>
+	<div style="background-color:grey;">
+	<h1> <center> Projektowanie Stron Internetowych - Mikołaj Kot </center></h1>
+	</div>
+	<div style="float:left; width:30%; height:550px;">
+		<h3>HTML</h3>
+			<a href="index.html"> STRONA GŁÓWNA </a> <br />
+			<a href="kolory.html"> KOLORY </a> <br />
+			<a href="nauczyciele.html"> NAUCZYCIELE </a> <br />
+			<a href="zdjecia.html"> ZDJĘCIA </a> <br />
+			<a href="tabela.html"> TABELA </a> <br />
+			<a href="tabela_kot.html"> TABELA NA OCENĘ <a> <br />
+			<a href="listy1.html"> LISTY </a> <br />
+			<a href="kot_lista.html"> LISTY NA OCENĘ</a> <br />
+			<a href="fromularznaocene.html"> FORMULARZ NA OCENE</a> <br />
+			<a href="mapy_odsyłaczy.html"> MAPY ODSYŁACZY</a><br />
+
+				<h3>CSS</h3>
+<a href="właściwości_css.html"> WŁAŚCIWOŚCI CSS </a><br />
+			<a href="indentyfikatory.html"> IDENTYFIKATOR CSS </a><br />
+		<h3>DOKUMENT</h3>
+			<a href="doc/grupa2c.docx" target="new"> LISTA GRUPA 2c </a><br /> 
+			<a href="doc/wydatki_grupa2c.xlxs" target="new"> WYDATKI GRUPA 2c </a><br /> 
+		<h3>LINKI</h3>
+			<a href="https://www.google.com"><img src="foty/google.png" width="50px" target="new"></a><br />
+			<a href="https://www.tsi-pai.cba.pl"><img src="foty/tsi.png" width="50px" target="new"></a><br />
+		<h3>MULTIMEDIA</h3>
+<body>
+<form action="onclick" method="post" enctype="multipart/form-data">
+<font size="6"><p><center> FORMULARZ KONTAKTOWY </center></p></font>
+<p> IMIĘ I NAZWISKO <input type="text" name"nazwisko_i_imie" size="30" /></p>
+<p> ADRES EMAIL <input type="text" name"email" value="email@gmail.com" /></p>
+<p> HASŁO <input type="password" id="haslo" maxlength="10"/></p>
+</form>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p> PŁEĆ (bez etykiety label)</p>
+<p><input type="radio" name="plec" id="mezczyzna" value="mezczyzna"> MĘŻCZYZNA </p>
+<p><input type="radio" name="plec" id="kobieta" value="kobieta" > KOBIETA </p>
+</form>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p> PLEĆ (z etykietą label) </p>
+<p><label for="male"> mężczyzna </label>
+        <input type="radio"  name="gender" id="male"  value="mezczyzna" > <br/>
+        <label for="famale"> kobieta </label>
+        <input type="radio"  name="gender" id="famale"  value="kobieta" > <br/> </p>
+</form>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p> JĘZYKI, KTÓRYMI WŁADASZ: </p>
+	<p><input type="checkbox" name="nazwa_jezyka" value="wartosc_ang" checked/> ANG </p>
+	<p><input type="checkbox" name="nazwa_jezyka" value="wartosc_nie" > NIE </p>
+	<p><input type="checkbox" name="nazwa_jezyka" value="wartosc_chn" > CHN </p>
+</form>
+
+</br>
+<hr>
+</br>
+
+<p><select name="nazwa_owoce" size="4" multiple>
+	<optgroup label="ULUBIONE OWOCE">
+		<option value="truskawki" />TRUSKAWKI
+		<option value="banany" />BANANY
+		<option value="maliny" />MALINY
+	</optgroup>
+</select>
+</p>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p><input list="blok" name="przegladarki"/>
+	<datalist id="blok">
+		<option value="Internet Explorer">
+		<option value="Firefox">
+		<option value="Chrome">
+		<option value="Opera">
+		<option value="Safiri">
+	</datalist> <input type="submit" name="Prześlij">
+</form>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p>
+<select id="days[]" name="days[]" size="7" multiple>
+	<optgroup label="DNI WOLNE">
+		<option> SOBOTA </option>
+		<option> NIEDZIELA </option>
+	</optgroup>
+	<optgroup label="DNI ROBOCZE">
+		<option> PONIEDZIAŁEK </option>
+		<option> WTOREK </option>
+		<option> ŚRODA </option>
+		<option> CZWARTEK </option>
+		<option> PIĄTEK </option>
+	</optgroup>
+</select>
+</p>
+</form>
+
+
+</br>
+<hr>
+</br>
+
+</p><textarea cols="60" rows="6">
+Jan Niezbędny
+ul. Nieznana 3
+40-001 Katowice
+Polska
+</textarea>
+</p>
+
+<p>
+<textarea cols="50" rows="6 ">
+Wprowadz swój adres
+</textarea>
+</p>
+
+</br>
+<hr>
+</br>
+
+<p><button type="reset" id="reset" />RESET</button></p>
+<p><input type="button" name="leave" value="Opusc stronę!"/></p>
+
+<p><button type="button" id="kupteraz" name="przycisk_zakupu" onclick="alert('zakupiono')"> Kup teraz! </button></p>
+
+</br>
+<hr>
+</br>
+
+<p>wyślij plik <input type="file"> </p>
+
+</br>
+<hr>
+</br>
+
+<legend> WYKSZTAŁCENIE </legend> 
+<p><input type="radio" name="gr_op" value="Podstawowe" accesskey="P" /> Podstawowe [skrót ALT+P] </br>
+<p><input type="radio" name="gr_op" value="Podstawowe" accesskey="S" /> Podstawowe [skrót ALT+S] </br>
+<p><input type="radio" name="gr_op" value="Podstawowe" accesskey="W" /> Podstawowe [skrót ALT+W] </p>
+
+</br>
+<hr>
+</br>
+
+<p><button type="submit" name="obrazek"><img src="foty/jaszur.png" width="200px"> </img></button></p>
+
+
+</br>
+<hr>
+</br>
+
+<p><input type="submit" value="wyslij"></p>
+<p><input type="reset" value="wyczysc"></p>
+
+</br>
+<hr>
+</br>
+
+<p> PRZYCISKI BUTTON</p>
+<p><button type="submit" name="przycisk1"> Wyślij </button></p>
+<p><button type="reset" name="przycisk2"> Usuń </button></p>
+<p><button type="button" name="przycisk3" style="font:12pt arial; background:red;"> Powrót </button></p>
+
+</br>
+<hr>
+</br>
+
+<p><button type="submit" name="obrazek"><img src="foty/jaszur.png" width="200px"> </img></button></p>
+
+</br>
+<hr>
+</br>
+
+
+
+
+
+
+
+
+
+</div>
+<div style="background-color:grey;clear:both;">
+<center>&copy;M.K,October 2024 </center></div>
+	
+	
+	
+</body>
+</html>
