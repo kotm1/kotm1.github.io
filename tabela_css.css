@@ -1,0 +1,7 @@
+table.zero,td.zero{
+
+    border:1px solid color:black;
+    width: 40px;
+    border-collapse: collapse;
+    table-layout:fixed;
+}
