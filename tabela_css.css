@@ -1,7 +1,58 @@
-table.zero,td.zero{
-
-    border:1px solid color:black;
-    width: 40px;
+table.zero, td.zero{
+    border:1px solid blue;
     border-collapse: collapse;
     table-layout:fixed;
+    width: 40%;
+}
+table.one {
+    width: 80%;
+    border-collapse: collapse;
+}
+th.one{
+    border:3px solid ;
+    padding:10px;
+    letter-spacing:uppercase;
+    border-color: red;
+    background-color: aqua;
+}
+td.one{
+    border:2px solid lime;
+    padding:10px;
+    background-color: yellow;
+}
+table.dwa,td.dwa{
+    border-collapse: collapse;
+    width:80%;
+    padding:8px;
+    table-layout:fixed;
+    border-top:1px aqua;
+}
+tr.dwa:hover {
+    background-color: aqua;
+}
+table.trzy,td.trzy{
+    border-collapse: collapse;
+    width:80%;
+    padding:8px;
+    table-layout:fixed;
+    border-top:1px aqua;
+}
+tr.trzy:nth-child(even):hover {
+    background-color: purple;
+}
+tr.trzy:nth-child(odd):hover {
+    background-color:grey;
+}
+table.genel,td.genel{
+    border-collapse: collapse;
+    width:80%;
+    padding:8px;
+    table-layout:fixed;
+    border-top:1px aqua;
+}
+tr.genel:nth-child(even):hover {
+    background-color: purple;
+}
+tr.genel:nth-child(odd):hover {
+    background-color:grey;
 }
