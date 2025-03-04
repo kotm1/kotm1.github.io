@@ -1,0 +1,12 @@
+p.a1[align]{
+
+font-size: 30px;
+color: red;
+}
+p.a2[align=right]{
+    color: white;
+    font-size: 30px;
+}
+body{
+    background-color:darkseagreen;
+}
