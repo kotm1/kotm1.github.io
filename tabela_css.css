@@ -1,4 +1,4 @@
- table.zero,table.zero *{
+    table.zero,table.zero *{
     border:1px solid blue;
     width:40%;
     table-layout:fixed;
@@ -167,6 +167,7 @@ th.dwa1, td.dwa1 {
 th.dwa1:hover, td.dwa1:hover {
 	background-color:aqua;
 }
+
   
         
     
