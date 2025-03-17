@@ -1,0 +1,15 @@
+h4:first-line{
+    text-decoration: underline;
+    background-color: greenyellow;
+    font-size: 20px;
+    font-family:serif;
+    color:aqua;
+}
+
+p:first-letter{
+    color:red;
+    background-color: fuchsia;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:cornflowerblue;
+}
