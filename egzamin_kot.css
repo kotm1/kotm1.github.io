@@ -1,0 +1,7 @@
+*{box-sizing:border-box;}
+body {background:silver; padding:20px;}
+header{border:1px solid gray; width:100%; background-color: white; padding: 20px;}
+nav{border:1px solid gray; width:50%; padding: 20px; background-color: silver;}
+article{ border: 1px solid blue;}
+
+
