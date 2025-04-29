@@ -1,0 +1,86 @@
+.knefel1:link, .knefel1:visited {display: block;color:White;text-decoration: none;border: 2px inset blue;
+    background-color: navy;padding: 10px 5px 5px 10px;width: 150px;}
+
+.knefel1:hover {color: gold;border: 2px inset gold;}
+
+.knefel2:link, .knefel2:visited, .knefel3:link, .knefel3:visited
+     {font-family: ravie;text-align: center;border-radius: 25px;display: block;
+        color:White;text-decoration: none;border: 2px inset blue;background-color: navy;
+        padding: 10px 5px 5px 10px;width: 150px;margin: 5px 0px;}
+.knefel2:hover {color: gold;border: 2px inset gold;transition: transform ease-in;position: relative;left: 3px;}
+.knefel3:hover {color: gold;border: 2px inset gold;transition: transform ease-in;position: relative;left: 10px;width: 120px; }
+.knefel4:link, .knefel4:visited, .knefel44:link, .knefel44:visited {color: white;background-color: purple;border: 2px outset fuchsia;padding: 4px;margin-right: 10px;text-decoration: none;}
+.knefel4:hover {color: pink; border: 2px inset gold; padding: 6px 3px 3px 6px;}
+.knefel44:hover {color: pink; border: 2px inset gold;transition: transform ease-in; bottom: 5px; position: relative;}
+.knefel5:link, .knefel5:visited {display: block;color:white; background-color: brown;border: 2px inset gold;padding: 9px 4px 4px 9px;width: 150px;text-align:center;text-decoration: none;float: left;margin: 0px 10px 0px 0px;}
+.knefel5:hover {transition: transform ease-in; bottom: 5px; left: 5px; position: relative;color: red;} 
+
+ul.zad {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #33415d;width: 23%;}
+	li.zad{float: left;}
+	li.zad a.zad{display:block;color:white;text-align:center;padding: 15px;text-decoration: none;}
+	li.zad a.zad:hover{background-color: #0d6ba1;}
+	ul{margin:5; padding:0;}
+ul, ul li.d{margin:0; padding:0;}
+#blok li.d{list-style:none;padding-bottom:1px; position:relative;}
+#blok, #blok ul{width:140px;}
+#blok ul{position:absolute;top:0px;left:140px;padding-left:1px;visibility: hidden;}
+#blok > li.d:hover>ul {visibility: visible;width:auto; height:auto;}
+#blok a, #blok > li.d:hover > li.d > a {display:block;font:12px/30px verdena, sans-serif;text-decoration:none;padding:0 10px;width: 140px;color:black;background-color:#c0c0cf;}
+#blok li.d:hover > a, #blok > li.d:hover >li.d:hover > a {background-color:#333033;color:white;}
+*{box-sizing:border-box;padding:0;margin:0;}
+ul.pozflex{
+    display:flex;justify-content: :space-evenly;flex-wrap:wrap;align-items:center;
+    margin-top:10px;margin-left:10px;
+    height:50px;list-style-type:none;
+}
+li.pozflex a.pozflex {
+    display:block;
+    width:300px;
+    padding:15px;
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    transition:0.3s;
+    text-align:center;
+}
+li.pozflex a.pozflex:hover{
+    background-color:gray;
+    color:#fff;
+}
+*{box-sizing:border-box;padding:0;margin:0;}
+
+.menu{display:flex;
+background-color: #333;
+list-style-type:none;
+justify-content: center;}
+
+.menu-item, .submenu-item{
+    position:relative;
+    transition:.3s;}
+
+.menu-item:hover{
+    background-color:rgb(37,37,37);}
+
+.menu-link, .submenu-link{display:block;
+color:white;
+width:300px;
+padding:15px;
+text-align: center;
+text-decoration: none;}
+
+.submenu{display: none;
+position: absolute;
+background-color: rgb(252,0,0);
+list-style-type: none;}
+
+.submenu-item{width:100%}
+
+.submenu-link{background-color: blue;
+transition:.3s}
+
+.submenu-link:hover{background-color:#333;}
+
+.menu-link:hover .submenu{
+    display:flex;
+    flex-direction:column;
+}
